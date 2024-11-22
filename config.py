@@ -7,20 +7,19 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = 29615570
-API_HASH = "21b04f01f6cced57219072476ae2c025"
+API_ID = 24711440
+API_HASH = "c672cacad61cec73f5a444aed99562fe"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "8037663132:AAFaHjWb2hrZOzSLRr1KEoHX9rG1usugdr0"
+BOT_TOKEN = "7597360044:AAGPggJMyz_U2CcST5dRxNkJpnhUGATojg0"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://AimXbots:AimXbots@cluster0.hrboeb1.mongo
-db.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URI = "mongodb+srv://BrandedSupportGroup:BRANDED_WORLD@cluster0.v4odcq9.mongodb.net/?retryWrites=true&w=majority"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = -1002385673159
+LOG_GROUP_ID = -1002401920122
 
 # Get this value from @ultron2_robot on Telegram by /id
 OWNER_ID = 5844528505
@@ -63,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "BQDNvmIAdCe7iAanIANzpCBZ0TUIHvniPWjCEjpUBw8i8XiqdwY1tx1IYVyYZw8L1oGVyxPUE5I9BCIvU1WW_93zM-wzDbP44Y3-CUVd3vbbMYP5KKvxx85f77ZDADB102-NKt4YKoop12dM6R-bMPqqo_UTngd_OxOsWWqiIYIa0Ty4ioVlhwF97VOQ-T68YqXgWmGMbc8K5-pLxpHgHWyYBB264PHys7kjo6FN0OFs9FPwpJN4X4nIkXJx3cX5QddxViXlectceECaydCzR4fBHgAuG63lM569CpF4ok7KhwYruT8TruZm0Gsj9dgPKArJn3IoADEQ-SM56_1XfRdV059puwAAAAGyln1hAA"
+STRING1 = "BQDNvmIApPMXmxaw7Rtk4O65IkZTR91eBo3mp1j2atd8UZN8pdUp-2DHsjUSnFLSR8TFQxVcsRPsXf26-ezFCUpHguXnrLYZtBEJrRHSordD0NCC-ioCNhymeBbGGx4lUDZR3YWg6-vPCzXQVjDEgO38Kp56COtLHbUbb0Shp7rL6hzUux86rRsd9-H26GPqY89C-jZ3P1F76uszAx3d7krqOs7fT4nikwITsYOlvrPv4U8zcu0SuWR33iXAT2mhVSlrJ3zH43E3DlIUu45PJo4o8ZAb5g2DW6jQUau9I8VdNBC1egVc4ghX3VsbZAMVhJq9aiIoFiMRoCOzLUFg13-5V3jQ3AAAAAHNQOQAAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
